@@ -1,0 +1,9 @@
+body{
+  background-color: #F1F1F1 !important;
+}
+#home-page-carousel,
+#home-page-carousel .carousel-inner{
+  height: 500px;
+  max-height: 500px;
+  min-height: 500px;
+}
