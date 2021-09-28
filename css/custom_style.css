@@ -7,7 +7,14 @@ body{
   max-height: 500px;
   min-height: 500px;
 }
-#home-page-carousel .carousel-inner .carousel-item img{
+#show-product-carousel,
+#show-product-carousel .carousel-inner{
+  height: 300px;
+  max-height: 300px;
+  min-height: 300px;
+}
+#home-page-carousel .carousel-inner .carousel-item img,
+#show-product-carousel .carousel-inner .carousel-item img{
   max-height: 100vh;
 }
 .home-img-slider .slick-prev.slick-arrow,
@@ -50,4 +57,15 @@ body{
 }
 .footer-list li{
   margin-top: 0.5rem;
+}
+.card.home-card{
+  max-width: 300px;
+}
+.card.home-card img{
+  max-height: 200px;
+}
+.subscribe-container{
+  background-color: #0a4275;
+  width: 300px;
+  margin: auto;
 }
